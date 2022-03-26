@@ -17,7 +17,7 @@ public abstract class Maedchen {
     public void removeBeobachter(Beobachter b){
         this.beobachterList.remove(b);
     }
-    public void sendeAufmerksamkeitAnBeobachter(){
+    public void mitDemHinternWackeln(){
         for(Beobachter b : beobachterList){
             b.aktualisieren();
         }
