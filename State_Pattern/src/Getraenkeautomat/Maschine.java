@@ -14,27 +14,4 @@ public class Maschine {
     public void start(){
         zustandFestlegen(new Bereit());
     }
-
-
-    public void nummerEingabe(int nummer) {
-        this.zustand.nummerEingabe(nummer);
-    }
-    public void nummerFalsch() {
-        this.zustand.nummerFalsch();
-    }
-    public void geldEingabe(int betrag) {
-        this.geldEingabe(betrag);
-    }
-    public void betragZuWenig() {
-        this.zustand.betragZuWenig();
-    }
-    public void geldOK(int betrag) {
-        this.zustand.geldOK(betrag);
-    }
-    public void geldRückgabe(int betrag) {
-        this.zustand.geldRückgabe(betrag);
-    }
-    public void getränkEntnehmen(){
-        this.zustand.getränkEntnehmen();
-    }
 }
