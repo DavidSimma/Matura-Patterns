@@ -1,6 +1,6 @@
 package pack;
 
-public class Ente {
+public abstract class Ente {
     Lautverhalten lv;
     protected Ente(Lautverhalten _lv){
         this.lv = _lv;
